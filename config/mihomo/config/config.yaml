@@ -111,6 +111,8 @@ proxy-groups:
 
 # 规则匹配
 rules:
+  - DOMAIN-SUFFIX,schwab.com,直连
+  - DOMAIN-SUFFIX,thinkorswim.com,直连
   - RULE-SET,private_ip,直连,no-resolve
   - RULE-SET,private_domain,直连
   - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
